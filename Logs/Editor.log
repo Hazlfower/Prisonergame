@@ -1,0 +1,380 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 18520)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 7076)
+VBCSCompiler prewarm took 221.71 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 15513 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-10T06:05:13Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeong" at "2026-11-10T06:05:13.3712746Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-projectpath
+C:\Users\jeong\Downloads\nialgul01\My project
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-jeong
+-hubSessionId
+2cb26bd1-4c41-42f0-a1a8-a12b457a9e52
+-accessToken
+FzNPGsTm2Kyr8gOkKzKRVyYzklKRA3fyTuJoSz8Ld8U00df
+Successfully changed project path to: C:\Users\jeong\Downloads\nialgul01\My project
+C:/Users/jeong/Downloads/nialgul01/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [22160]  Target information:
+
+Player connection [22160]  * "[IP] 192.168.0.243 [Port] 55504 [Flags] 2 [Guid] 1860621952 [EditorId] 1860621952 [Version] 1048832 [Id] WindowsEditor(7,LeeJA_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22160] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22160] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20452, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              bc89097aac294a10adc079ba52e85f5e
+  Correlation Id:          2ebb8707cc23dc787e1847538b23770d
+  External correlation Id: 2580391801253153180
+  Machine Id:              svWPaQDNn67jxPWKtdfbbpUd7tQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jeong" (connect: 0.00s, validation: 0.01s, handshake: 0.66s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeong-notifications" at "2026-11-10T06:05:14.044923Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token FzNPGsTm2K...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569824518331-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.73s
+[Package Manager] Connected to IPC stream "Upm-14736" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: a9e48e40ee96c09b0a2f3feb318cd834
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/jeong/Downloads/nialgul01/My projectUnity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 20.23 ms, found 0 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jeong/Downloads/nialgul01/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) 840M Graphics (ID=0x1902)
+    Vendor:   ATI
+    VRAM:     7756 MB
+    Driver:   32.0.22032.3003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.719553 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.962 seconds
+Domain Reload Profiling: 14508ms
+	BeginReloadAssembly (1468ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (875ms)
+	initialDomainReloadingComplete (1486ms)
+	LoadAllAssembliesAndSetupDomain (4672ms)
+		LoadAssemblies (1438ms)
+		TypeCache.Refresh (4216ms)
+			TypeCache.ScanAssembly (3378ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (5969ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (7ms)
+			InitializePlatformSupportModulesInManaged (185ms)
+			BeforeProcessingInitializeOnLoad (346ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (2164ms)
+			EditorAssembliesLoaded (18ms)
+		ExecutionOrderSort2 (4ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 60 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.16 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.ai.navigation@d0cf77b009bb)
+    com.unity.analytics@3.8.2 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.analytics@c9d14a6bdec6)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.microsoft.gdk@1.7.1 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.microsoft.gdk@b7325035fb1d)
+    com.unity.microsoft.gdk.tools@1.7.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.microsoft.gdk.tools@d61763b7f228)
+    com.unity.purchasing@5.5.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.purchasing@00a2945f1a91)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.services.core@1.18.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.services.core@3464cb68d709)
+    com.unity.services.deployment@1.7.2 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.services.deployment@c07c64f9804b)
+    com.unity.microsoft.gdk.discovery@1.3.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.microsoft.gdk.discovery@9c2d1c88cf7f)
+    com.unity.services.analytics@6.3.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.services.analytics@cde4e6cf92f9)
+    com.unity.services.deployment.api@1.1.3 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.services.deployment.api@9becf6da0f1a)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.2d.tilemap@f4c7bd71ac8a)
+    com.unity.multiplayer.center@2.1.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.multiplayer.center@95d2d3515ad6)
+    com.unity.test-framework@1.8.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.test-framework@ee3fe9477490)
+    com.unity.timeline@6.6.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.timeline@5aa4cbea9cc5)
+    com.unity.ugui@2.6.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.ugui@eb824e41fbc7)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\jeong\Downloads\nialgul01\My project\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Package Manager] com.unity.analytics is deprecated: This package is deprecated and won't be compatible with future Unity versions. It will only receive critical updates, with no new features or bug fixes. Migrate to Unity Analytics: https://docs.unity.com/en-us/analytics
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.09 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/jeong/Downloads/nialgul01/My project
+ExitCode: 0 Duration: 6s828ms
+[ 774/1001  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[ 997/1001  5s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+*** Tundra build success (6.40 seconds), 2 items updated, 1001 evaluated
+AssetDatabase: script compilation time: 9.737499s
+Begin MonoManager ReloadAssembly
+Total cache size 72754784
+Total cache size after purge 72754784, took 00:00:01.2806805
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 1190.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.430 seconds
+Domain Reload Profiling: 14948ms
+	BeginReloadAssembly (1009ms)
+		DisableScriptedObjects (199ms)
+		CreateAndSetChildDomain (145ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (254ms)
+	LoadAllAssembliesAndSetupDomain (11180ms)
+		LoadAssemblies (10507ms)
+		TypeCache.Refresh (571ms)
+			TypeCache.ScanAssembly (538ms)
+		AnalyzeDomain (159ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2433ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (710ms)
+			ProcessInitializeOnLoadMethodAttributes (724ms)
+			AfterProcessingInitializeOnLoad (47ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (80ms)
+Starting new worker id: 0 with log in C:/Users/jeong/Downloads/nialgul01/My project/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=9810229b7535c97428e5320e0b6b9c3f): Total: 50.392 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=26996 ms
+		Asset DB Callback time: managed=248 ms, native=163 ms
+		Scripting: domain reloads=1, domain reload time=13049 ms, compile time=9749 ms, other=185 ms
+		Project Asset Count: scripts=1212, non-scripts=1323
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.070ms
+	InvokePackagesCallback: 178.259ms
+	ApplyChangesToAssetFolders: 3.003ms
+	Scan: 872.352ms
+	Collect global state as custom dependencies: 52.345ms
+	CategorizeScriptCompilationAssets: 5039.013ms
+	ProcessAssetsWithTransientArtifactChanges: 204.210ms
+	CategorizeAssets: 122.007ms
+	CompileScripts: 9749.455ms
+	ImportOutOfDateAssets: 3798.172ms (3717.086ms without children)
+		UnloadImportedAssets: 4.570ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.070ms
+		ImportSchedulerStart: 74.427ms
+	PostProcessAllAssets: 248.496ms
+		MonoPostProcessAllAssets: 248.209ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 32.925ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 23.373ms
+			SyncVS.PostprocessSyncProject 12.123ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.325ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.103ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.975ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.920ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.692ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.237ms
+	UnloadStreamsBegin: 5.399ms
+	PersistCurrentRevisions: 0.151ms
+	GenerateScriptTypeHashes: 5.191ms
+	GenerateScriptTypeSerializationHashes: 10.265ms
+	Untracked: 30022.759ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Scanning for USB devices : 7.129ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            1157.564 ms
+	Integration:            420.438 ms
+	Integration of assets:  11.668 ms
+	Thread Wait Time:       1.857 ms
+	Total Operation Time:   1591.527 ms
+Unloading 4834 unused Assets / (4.5 MB). Loaded Objects now: 5626.
+Memory consumption went from 354.6 MB to 350.1 MB.
+Total: 27.319300 ms (FindLiveObjects: 1.218900 ms CreateObjectMapping: 0.856300 ms MarkObjects: 20.094600 ms  DeleteObjects: 4.298300 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\jeong\Downloads\nialgul01\My project\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/jeong/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 96.604 seconds
+	Project init time: 				89.824 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.245 seconds
+		Asset Database init time: 		3.424 seconds
+		Global illumination init time: 	0.079 seconds
+		Assemblies load time: 			29.588 seconds
+		Unity extensions init time: 	0.034 seconds
+		Asset Database refresh time: 	50.394 seconds
+	Scene opening time: 			5.849 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794290809494,"processId":14736,"projectLoad":96.6038896,"projectInit":89.8244776,"templateInit":0.0,"packageManagerInit":0.2445522,"assetDatabaseInit":3.4243754,"globalIlluminationInit":0.0787963,"assembliesLoad":29.5884959,"unityExtensionsInit":0.0342812,"assetDatabaseRefresh":50.3940645,"sceneOpening":5.8492155}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794290809495,"processId":14736,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/jeong/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.110s, timestamps: [99.774 - 99.885]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "FzNPGsTm"... (expires: 2026-11-10T08:04:26Z)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=a6435f2d7b0940249b2f280c7443e8b4): Total: 0.180 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/jeong/Downloads/nialgul01/My project/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 42236baef0f81b84390f48df24b5ef10 - Path: Assets/Scripts/LoadingImage.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e123b7075918c4291aa481e1a065641e') in 0.392854 seconds
+[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dcac6437e657ddb13cff464fa4689d8b') in 0.0308151 seconds
+[Worker0] Imported GUID: 3fe7789b62f71404fa3edac1ce331438 - Path: Assets/Scripts/New Animation.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1f76e48bf215f0cb63a22065dd66f8e8') in 0.0736846 seconds
+[Worker0] Imported GUID: 7f63164243d1a8a4dbec5760b841aadd - Path: Assets/Scripts/DayManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4031940ddc45a15449e4f1682307766a') in 0.0478689 seconds
+[Worker0] Imported GUID: b340f10f7d368154fa40d6ba68cbbe41 - Path: Assets/Scripts/PrisonerGenerator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5518998ccb0f986f70937108390f227e') in 0.0244608 seconds
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=e19e737044390414a82147cd0722e3d6): Total: 0.030 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+TrimDiskCacheJob: Current cache size 0mb
